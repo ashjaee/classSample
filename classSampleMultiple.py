@@ -11,4 +11,5 @@ class C(A,B):
         print("class C")
 
 c = C()
-c.rpt_func(20)
+c.rpt_func(20,20,20)
+print(help(c))
